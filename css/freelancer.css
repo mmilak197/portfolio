@@ -103,9 +103,10 @@ section h2 {
 
 #mainNav .navbar-brand {
   color: #fff;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
-#mainNav .navbar-nav {
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   margin-top: 1rem;
   letter-spacing: 0.0625rem;
 }
