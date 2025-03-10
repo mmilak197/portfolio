@@ -1,0 +1,13 @@
+.skill-card {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
